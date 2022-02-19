@@ -1,0 +1,182 @@
+/*---------Голова-----------------------------------------------------*/
+/*1435*/
+/*995*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  max-width: 1435px;
+  margin: 0 auto;
+  font-family: Vollkorn;
+}
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto 30px;
+  overflow: hidden;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.btn {
+  width: 348px;
+  height: 67px;
+  border-radius: 8px;
+  background-color: #c4c4c4;
+  text-align: center;
+  padding: 21px 43px;
+  align-items: baseline;
+}
+.btn_link {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+/*-------------Тело---------------------------------------------------*/
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 70px;
+}
+.nav {
+  margin-top: 83px;
+}
+.nav_list {
+  display: flex;
+}
+.nav_link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.nav_item:not(:last-child) {
+  margin-right: 73px;
+}
+/*-------Секция your_dog-------------------------------------------------------*/
+.your_dog_main {
+  max-width: 403px;
+}
+.your_dog_titel {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 89px;
+}
+.your_dog_text {
+  font-size: 24px;
+  line-height: 29px;
+  margin: 22px 0 153px 0;
+  width: 403px;
+  letter-spacing: 0.05em;
+}
+.your_dog_bold {
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.your_dog {
+  display: flex;
+  margin-top: 92px;
+  align-items: flex-end;
+}
+.your_dog_img {
+    margin-left: 48px;
+}
+/*-------Секция Вакцинации---------------------------*/
+.vac_center {
+  display: flex;
+  align-items: flex-end;
+}
+.vac_centr_titel {
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  margin-top: 85px;
+}
+
+.vac_centr_text {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: start;
+  max-width: 785px;
+  padding: 30px 0;
+  margin-right: 26px;
+}
+/*---------Цены------------------------------------*/
+.price {
+  display: flex;
+  align-items: flex-end;
+}
+.price_titel {
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  margin-top: 88px;
+}
+.price_text {
+  font-size: 22px;
+  line-height: 30px;
+  text-align: start;
+  max-width: 669px;
+  margin: 65px 127px 60px 0;
+}
+/*--------Команда-------------------------*/
+.tim_info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+.columm{
+  max-width: 180px;
+}
+.tim_title{
+  margin-top: 88px;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  margin-bottom: 50px;
+}
+span{
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+}
+.contact {
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  margin-top: 100px;
+  text-align: center;
+}
+.wrapper_contact {
+  display: flex;
+  margin-top: 30px;
+
+}
+.contact_logo {
+
+
+}
+.contact_text {
+  max-width: 247px;
+  margin-left: 121px;
+  ont-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+.contact_email {
+  margin-left: 93px;
+}
+.vse{
+  margin-top: 15px;
+  
+}
