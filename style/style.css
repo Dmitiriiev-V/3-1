@@ -31,13 +31,14 @@ a {
   background-color: #c4c4c4;
   text-align: center;
   padding: 21px 43px;
-  align-items: baseline;
+ 
 }
 .btn_link {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.05em;
+  
 }
 /*-------------Тело---------------------------------------------------*/
 .header {
@@ -62,39 +63,47 @@ a {
   margin-right: 73px;
 }
 /*-------Секция your_dog-------------------------------------------------------*/
-.your_dog_main {
-  max-width: 403px;
+.your_dog {
+  display: flex;
+  margin-top: 92px;
+  justify-content: space-between;
+}
+.your_dog_main{
+  display: flex;
+  flex-direction: column;
 }
 .your_dog_titel {
+  display: block;
   font-weight: 600;
   font-size: 64px;
   line-height: 89px;
+  align-self: flex-start; /* Не получаеться выровнять контент средством  align-self: , пришлось раздвигать его margin`ом*/
 }
 .your_dog_text {
   font-size: 24px;
   line-height: 29px;
-  margin: 22px 0 153px 0;
-  width: 403px;
+  margin: 145px 0;
   letter-spacing: 0.05em;
+  align-self: center;/*аналогично как с класом .your_dog_titel не выровнялся*/
 }
 .your_dog_bold {
   font-weight: 900;
   font-size: 24px;
   letter-spacing: 0.05em;
 }
-
-.your_dog {
-  display: flex;
-  margin-top: 92px;
-  align-items: flex-end;
-}
 .your_dog_img {
     margin-left: 48px;
 }
+
 /*-------Секция Вакцинации---------------------------*/
 .vac_center {
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
+}
+.vac_ceneter_info{
+  display: flex;
+  flex-direction: column;
 }
 .vac_centr_titel {
   font-size: 36px;
@@ -109,13 +118,17 @@ a {
   text-align: start;
   max-width: 785px;
   padding: 30px 0;
-  margin-right: 26px;
   margin-top: 30px;
 }
 /*---------Цены------------------------------------*/
 .price {
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
+}
+.price_list{
+  display: flex;
+  flex-direction: column;
 }
 .price_titel {
   font-size: 36px;
@@ -128,7 +141,7 @@ a {
   line-height: 30px;
   text-align: start;
   max-width: 669px;
-  margin: 65px 70px 60px 0;
+  margin: 65px 0 60px 0;
 }
 /*--------Команда-------------------------*/
 .tim_info {
